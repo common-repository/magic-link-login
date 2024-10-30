@@ -1,0 +1,14 @@
+{
+    "name": "amicaldo/amc-spark",
+    "description": "Handy tool to login user with a link in an email",
+    "type": "wordpress-plugin",
+    "require": {
+        "smarty/smarty": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "amc_spark\\": "classes"
+        }
+    },
+    "license": "MIT"
+}

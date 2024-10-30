@@ -1,0 +1,26 @@
+.amc-spark-or {
+  text-align: center;
+  margin-top: 18px;
+  margin-bottom: 12px;
+}
+
+.amc-magic-login-button {
+  a {
+    background-color: cadetblue;
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    border-radius: 4px;
+    font-size: 1.1em;
+    border: solid 1px lighten(cadetblue, 5%);
+    &:hover {
+      background-color: darken(cadetblue, 10%);
+    }
+  }
+
+}
+
+#amc-spark-mail-input-wrapper {
+  display: none;
+}
